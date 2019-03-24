@@ -16,12 +16,13 @@ html {
 	font-size: 1.3rem;
 	line-height: 1.375rem;
 
-
 }
+
 .wrap {
 	margin: 0 auto;
 	max-width: 1680px;
 }
+
 /*формление header*/
 .main-header {
 	margin: 0 auto;
@@ -29,40 +30,47 @@ html {
 	width: 100%;
 	height: 100px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	position: relative;
 }
+
 .main-header__line {
 	position: absolute;
 	bottom: 0;
 	height: 5px;
 	width: 100%;
-	background-color:#1e1e1e;
+	background-color: #1e1e1e;
 	z-index: 20;
 }
+
 /*оформление логотипа*/
 .logo-top {
 	display: flex;
 }
+
 .logo-top__title,
 .logo-top__dot {
-	color:#fff;
+	color: #fff;
 	font-family: 'Eurofurence';
 	font-weight: normal;
 	font-size: 1.5rem;
 }
+
 .logo-top__dot {
 	color: rgb(88, 201, 58);
 }
+
 .logo-top__link {
 	font-size: 1.5rem;
 	display: block;
 	font-family: 'Eurofurence';
-	color:#fff;
+	color: #fff;
 }
 
-
+.contact__item {
+	color: #fff;
+}
 
 /*оформление бургера для мобилки*/
 
@@ -114,10 +122,12 @@ html {
 	border-radius: 50%;
 	position: relative;
 }
+
 @media screen and (max-width: 780px) {
-	.menu-btn{
+	.menu-btn {
 		display: block;
 	}
+
 	.section {
 		z-index: 300;
 	}
@@ -142,6 +152,7 @@ html {
 	font-family: 'Eurofurence';
 	font-size: 1.2rem;
 }
+
 .main-menu__item {
 	display: flex;
 	justify-content: center;
@@ -152,6 +163,7 @@ html {
 	height: 100%;
 	border-bottom: 5px solid #1e1e1e;
 }
+
 .main-menu__item:last-child {
 	border-right: solid 1px #1d1d1d;
 }
@@ -199,6 +211,7 @@ html {
 	transition-delay: 300ms;
 	box-sizing: border-box;
 }
+
 @media screen and (max-width: 780px) {
 	.block-left {
 		width: 100vh;
@@ -216,6 +229,7 @@ html {
 	background: #f5f6f7;
 
 }
+
 .block-left.active .block-left__inner:after {
 	width: 350px;
 	border-radius: 50%;
