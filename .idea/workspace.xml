@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad93453c-fddc-490b-a64e-50cbb50e93c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +22,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="327">
-                  <caret line="535" column="93" lean-forward="false" selection-start-line="535" selection-start-column="93" selection-end-line="535" selection-end-column="93" />
+                <state relative-caret-position="-1177">
+                  <caret line="459" column="22" lean-forward="false" selection-start-line="459" selection-start-column="22" selection-end-line="459" selection-end-column="22" />
                   <folding>
                     <element signature="e#4121#4127#1" expanded="true" />
                     <element signature="e#4554#4560#1" expanded="true" />
@@ -214,12 +213,12 @@
       <workItem from="1510567536449" duration="995000" />
       <workItem from="1553274667147" duration="4710000" />
       <workItem from="1553418267646" duration="9136000" />
-      <workItem from="1553503275104" duration="5624000" />
+      <workItem from="1553503275104" duration="5826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44387000" />
+    <option name="totallyTimeSpent" value="44589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="0" width="1346" height="735" extended-state="0" />
@@ -232,7 +231,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20394737" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20367278" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -606,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="535" column="93" lean-forward="false" selection-start-line="535" selection-start-column="93" selection-end-line="535" selection-end-column="93" />
+        <state relative-caret-position="-1177">
+          <caret line="459" column="22" lean-forward="false" selection-start-line="459" selection-start-column="22" selection-end-line="459" selection-end-column="22" />
           <folding>
             <element signature="e#4121#4127#1" expanded="true" />
             <element signature="e#4554#4560#1" expanded="true" />
