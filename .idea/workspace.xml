@@ -22,8 +22,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1177">
-                  <caret line="459" column="22" lean-forward="false" selection-start-line="459" selection-start-column="22" selection-end-line="459" selection-end-column="22" />
+                <state relative-caret-position="333">
+                  <caret line="597" column="94" lean-forward="false" selection-start-line="597" selection-start-column="94" selection-end-line="597" selection-end-column="94" />
                   <folding>
                     <element signature="e#4121#4127#1" expanded="true" />
                     <element signature="e#4554#4560#1" expanded="true" />
@@ -213,18 +213,18 @@
       <workItem from="1510567536449" duration="995000" />
       <workItem from="1553274667147" duration="4710000" />
       <workItem from="1553418267646" duration="9136000" />
-      <workItem from="1553503275104" duration="5826000" />
+      <workItem from="1553503275104" duration="6616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44589000" />
+    <option name="totallyTimeSpent" value="45379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="0" width="1346" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06880734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18195719" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20556414" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -605,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1177">
-          <caret line="459" column="22" lean-forward="false" selection-start-line="459" selection-start-column="22" selection-end-line="459" selection-end-column="22" />
+        <state relative-caret-position="333">
+          <caret line="597" column="94" lean-forward="false" selection-start-line="597" selection-start-column="94" selection-end-line="597" selection-end-column="94" />
           <folding>
             <element signature="e#4121#4127#1" expanded="true" />
             <element signature="e#4554#4560#1" expanded="true" />
