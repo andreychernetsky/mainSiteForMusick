@@ -75,11 +75,8 @@ html {
 /*оформление бургера для мобилки*/
 
 .section {
-	background: #fff;
-	display: flex;
-	align-items: center;
-	right: 10px;
-	border-radius: 50%;
+
+	display: none;
 }
 
 .menu-btn span,
@@ -129,6 +126,11 @@ html {
 
 	.section {
 		z-index: 300;
+		background: #fff;
+		display: flex;
+		align-items: center;
+		right: 10px;
+		border-radius: 50%;
 	}
 }
 
@@ -201,7 +203,7 @@ html {
 	background: #f5f6f7;
 	height: 100vh;
 	position: fixed;
-	width: 350px;
+	width: 100vh;
 	top: 0;
 	opacity: 0;
 	visibility: hidden;
@@ -215,6 +217,14 @@ html {
 	.block-left {
 		width: 100vh;
 		background: #000000;
+	}
+
+	.main-menu__item a {
+		color: #000000;
+	}
+
+	.main-menu {
+		display: none;
 	}
 }
 
@@ -234,6 +244,66 @@ html {
 	border-radius: 50%;
 	-webkit-animation: elastic 150ms ease 300.5ms both;
 	animation: elastic 150ms ease 300.5ms both;
+}
+/*оформление цитаты*/
+
+/*оформление контента music*/
+/*оформление четырех блоков*/
+.preplan {
+	background-color: #e7e7e7;
+	text-align: center;
+	padding: 50px 110px;
+}
+
+#aplan {
+	background-color: #e7e7e7;
+}
+
+.basic__title {
+	height: 68px;
+	color: #fefefe;
+	background-color: #3498db;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.basic__arround-purshase {
+	background-color: #3498db;
+	padding: 20px 50px;
+}
+
+.basic__purchase {
+	background-color: #0d74b9;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.standard__title {
+	height: 68px;
+	color: #fefefe;
+	background-color: #3498db;
+	text-align: center;
+	font-size: 30px;
+}
+
+.standard__features {
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.standard__arround-purshase {
+	background-color: #3498db;
+	padding: 20px 50px;
+}
+
+.block {
+	background-color: black;
+	border: 1px solid #fff;
+	height: 250px;
+	width: 100%;
+
 }
 
 
