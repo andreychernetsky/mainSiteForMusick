@@ -21,8 +21,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1280">
-                  <caret line="106" column="96" lean-forward="true" selection-start-line="106" selection-start-column="96" selection-end-line="106" selection-end-column="96" />
+                <state relative-caret-position="272">
+                  <caret line="106" column="87" lean-forward="false" selection-start-line="106" selection-start-column="87" selection-end-line="106" selection-end-column="87" />
                   <folding>
                     <element signature="e#4342#4348#1" expanded="true" />
                     <element signature="e#4363#4369#1" expanded="true" />
@@ -63,8 +63,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
-                  <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+                <state relative-caret-position="271">
+                  <caret line="336" column="12" lean-forward="true" selection-start-line="336" selection-start-column="12" selection-end-line="336" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -215,12 +215,12 @@
       <workItem from="1553418267646" duration="9136000" />
       <workItem from="1553503275104" duration="7323000" />
       <workItem from="1553621188190" duration="486000" />
-      <workItem from="1553622312761" duration="3115000" />
+      <workItem from="1553622312761" duration="3224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49687000" />
+    <option name="totallyTimeSpent" value="49796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -597,10 +597,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="231" column="14" lean-forward="false" selection-start-line="231" selection-start-column="14" selection-end-line="231" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="106" column="96" lean-forward="true" selection-start-line="106" selection-start-column="96" selection-end-line="106" selection-end-column="96" />
+        <state relative-caret-position="272">
+          <caret line="106" column="87" lean-forward="false" selection-start-line="106" selection-start-column="87" selection-end-line="106" selection-end-column="87" />
           <folding>
             <element signature="e#4342#4348#1" expanded="true" />
             <element signature="e#4363#4369#1" expanded="true" />
@@ -610,14 +618,6 @@
             <element signature="e#6301#6307#1" expanded="true" />
             <element signature="n#div#1;n#div#1;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
