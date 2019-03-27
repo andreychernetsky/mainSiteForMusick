@@ -8,13 +8,18 @@
 
 html {
 	font-size: 100%;
+
 }
 
 .wrapper {
-	font-family: 'open sans';
+	font-family: 'Arial';
 	font-weight: 300;
 	font-size: 1.3rem;
 	line-height: 1.375rem;
+	display: flex;
+	flex-direction: column;
+	line-height: 2.3rem;
+
 
 }
 .main-foto {
@@ -27,6 +32,11 @@ html {
 .wrap {
 	margin: 0 auto;
 	max-width: 1680px;
+}
+.content-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 /*формление header*/
@@ -125,7 +135,7 @@ html {
 	position: relative;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width:920px) {
 	.menu-btn {
 		display: block;
 	}
@@ -198,7 +208,7 @@ html {
 	color: rgb(88, 201, 58);
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 919px) {
 	.main-menu {
 		display: none;
 	}
@@ -219,7 +229,7 @@ html {
 	box-sizing: border-box;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width:920px) {
 	.block-left {
 		width: 100vh;
 		background: #000000;
@@ -251,66 +261,79 @@ html {
 	-webkit-animation: elastic 150ms ease 300.5ms both;
 	animation: elastic 150ms ease 300.5ms both;
 }
-/*оформление цитаты*/
 
 /*оформление контента music*/
-/*оформление четырех блоков*/
-.preplan {
-	background-color: #e7e7e7;
-	text-align: center;
-	padding: 50px 110px;
-}
+/*оформление трех блоков*/
 
-#aplan {
-	background-color: #e7e7e7;
-}
-
-.basic__title {
-	height: 68px;
-	color: #fefefe;
-	background-color: #3498db;
-	text-align: center;
-	font-size: 30px;
-
-}
-
-.basic__arround-purshase {
-	background-color: #3498db;
-	padding: 20px 50px;
-}
-
-.basic__purchase {
-	background-color: #0d74b9;
-	color: #ffffff;
-	font-size: 17px;
-	font-weight: 700;
-}
-
-.standard__title {
-	height: 68px;
-	color: #fefefe;
-	background-color: #3498db;
-	text-align: center;
-	font-size: 30px;
-}
-
-.standard__features {
-	background-color: #ffffff;
-	text-align: center;
-}
-
-.standard__arround-purshase {
-	background-color: #3498db;
-	padding: 20px 50px;
-}
-
-.block {
-	background-color: black;
-	border: 1px solid #fff;
-	height: 250px;
+.music-art {
 	width: 100%;
+	background: #f7f7f7;
+}
+.music-art__title {
+	text-align: center;
+}
+
+
+.music-art__text {
+	font-size: .13rem;
+	padding: 30px;
+}
+
+/*оформление трех блоков*/
+
+.music-block__title {
+	height: 68px;
+	color: #fefefe;
+	background-color: #3498db;
+	text-align: center;
+	font-size: 30px;
 
 }
+
+.music-block__title {
+	background-color: #3498db;
+	padding: 20px 50px;
+}
+/*оформление контента game*/
+/*оформление трех блоков*/
+.game {
+	width: 100%;
+	background:#f7f7f7;
+	padding: 20px;
+}
+.game__title {
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+.game__text {
+	font-size: 1.3em;
+}
+
+.bloc-game {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+}
+.block-game__plan {
+	width: 31%;
+}
+
+.block-game__title {
+	height: 68px;
+	color: #fefefe;
+	background-color: #3498db;
+	text-align: center;
+	font-size: 30px;
+}
+.more {
+	background-color: #3498db;
+	padding: 20px 50px;
+
+}
+
+
 
 /*оформление цитат*/
 .blockquote {
@@ -360,6 +383,69 @@ html {
 	font-style: normal;
 	font-weight: 300;
 }
+
+/*медиа запросы*/
+
+@media only screen and (max-width : 1200px){
+
+}
+@media only screen and (max-width : 992px) {
+	.blockquote {
+		width: 100%;
+	}
+	.music {
+		width: 100%;
+	}
+	.music-block,
+	.bloc-game{
+		width:100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.music-block__plan {
+		width: 100%;
+		margin: 10px;
+		background: red;
+	}
+	.game {
+		width: 100%;
+		padding: 10px 20px;
+	}
+	.game__text{
+		text-align: center;
+	}
+
+
+	.block-game__plan {
+		width: 100%;
+		margin: 10px;
+	}
+	.project-descrip {
+		width: 100%;
+	}
+	.project {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.project__time {
+		width: 100%;
+		margin: 10px;
+		background: olivedrab;
+	}
+}
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
 
 
 

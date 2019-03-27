@@ -1,0 +1,177 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.5s ease;
+}
+
+html {
+	font-size: 100%;
+}
+
+.wrapper {
+	font-family: 'open sans';
+	font-weight: 300;
+	font-size: 1.3rem;
+	line-height: 1.375rem;
+	margin: 0 auto;
+	max-width: 1680px;
+	outline: 1px solid black;
+	display: flex;
+	flex-direction: column;
+
+}
+
+/*формление header*/
+.main-header {
+	margin: 0 auto;
+	background-color: #292929;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+.main-wrap {
+	outline: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.blockquote {
+	width: 100%;
+	outline: 1px solid black;
+	height: 200px;
+	margin: 5px;
+}
+.music {
+	width: 100%;
+	height: 300px;
+	margin: 5px;
+}
+.music-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	outline: 1px solid black;
+}
+.music-block__plan {
+	width:300px;
+	outline: 1px solid black;
+	height: 300px;
+}
+.game {
+	margin: 5px;
+	width: 100%;
+	height: 300px;
+	outline: 1px solid black;
+}
+.block-game {
+	margin: 5px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.block-game__plan {
+	width:300px;
+	outline: 1px solid black;
+	height: 300px;
+}
+.project-descrip {
+	margin: 5px;
+	width: 100%;
+	height: 300px;
+	outline: 1px solid black;
+}
+.project {
+	margin: 5px;
+	width: 100%;
+	outline: 1px solid black;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.project__time {
+	width:300px;
+	outline: 1px solid black;
+	height: 300px;
+}
+.footer {
+	width: 100%;
+	outline: 1px solid black;
+	height: 70px;
+}
+h2 {
+	text-align: center;
+}
+@media only screen and (max-width : 1200px){
+
+}
+@media only screen and (max-width : 992px) {
+	.blockquote {
+
+	}
+	.music {
+		width: 100%;
+	}
+	.music-block {
+		width:100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.music-block__plan {
+		width: 100%;
+		margin: 10px;
+		background: red;
+	}
+	.game {
+		width: 100%;
+	}
+	.block-game {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.block-game__plan {
+		width: 100%;
+		margin: 10px;
+		background: blue;
+	}
+	.project-descrip {
+		width: 100%;
+	}
+	.project {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.project__time {
+		width: 100%;
+		margin: 10px;
+		background: olivedrab;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+
+@media only screen and (max-width : 480px) {
+
+}
+
+
+
+
+
