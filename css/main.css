@@ -20,19 +20,19 @@ html {
 	flex-direction: column;
 	line-height: 2.3rem;
 
-
 }
+
 .main-foto {
 	text-align: center;
 	max-width: 100%;
 	width: 100%;
 }
 
-
 .wrap {
 	margin: 0 auto;
 	max-width: 1680px;
 }
+
 .content-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -135,7 +135,7 @@ html {
 	position: relative;
 }
 
-@media screen and (max-width:920px) {
+@media screen and (max-width: 920px) {
 	.menu-btn {
 		display: block;
 	}
@@ -229,7 +229,7 @@ html {
 	box-sizing: border-box;
 }
 
-@media screen and (max-width:920px) {
+@media screen and (max-width: 920px) {
 	.block-left {
 		width: 100vh;
 		background: #000000;
@@ -269,10 +269,10 @@ html {
 	width: 100%;
 	background: #f7f7f7;
 }
+
 .music-art__title {
 	text-align: center;
 }
-
 
 .music-art__text {
 	font-size: .13rem;
@@ -294,18 +294,21 @@ html {
 	background-color: #3498db;
 	padding: 20px 50px;
 }
+
 /*оформление контента game*/
 /*оформление трех блоков*/
 .game {
 	width: 100%;
-	background:#f7f7f7;
+	background: #f7f7f7;
 	padding: 20px;
 }
+
 .game__title {
 	text-align: center;
 	font-size: 1.8rem;
 	font-weight: 600;
 }
+
 .game__text {
 	font-size: 1.3em;
 }
@@ -314,31 +317,67 @@ html {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	margin: 0 20px;
 
 }
+
 .block-game__plan {
 	width: 31%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 20px;
 }
 
 .block-game__title {
-	height: 68px;
-	color: #fefefe;
-	background-color: #3498db;
+	margin: 0;
+	padding: 8px 0 8px 15px;
+	background: #5F2D0F;
+	font-size: 1.5rem;
+	line-height: 23px;
+	color: #fff;
 	text-align: center;
-	font-size: 30px;
-}
-.more {
-	background-color: #3498db;
-	padding: 20px 50px;
 
 }
 
+.block-game__list {
+	padding: 0;
+	margin: 10px 0 0;
+}
 
+.block-game__item {
+	font-size: 1rem;
+	list-style: none;
+	height: 31px;
+	border-bottom: 1px solid #e8e6de;
+	margin: 20px 16px;
+}
+
+.block-game__link{
+	text-decoration: none;
+	color: #14652F;
+	padding: 10px 10px 10px;
+	font-size: 1.3rem;
+}
+
+.block-game__link:hover {
+	_text-decoration: none;
+	color: #B8799E;
+	text-align: center;
+	padding: 2px;
+	min-width: 30%;
+}
 
 /*оформление цитат*/
 .blockquote {
 	position: relative;
 	padding-top: 30px;
+}
+.block-game__descrip {
+	line-height:1.9rem;
+	padding:0 10px 0;
+	color:#444;
 }
 
 .blockquote__one {
@@ -386,45 +425,52 @@ html {
 
 /*медиа запросы*/
 
-@media only screen and (max-width : 1200px){
+@media only screen and (max-width: 1200px) {
 
 }
-@media only screen and (max-width : 992px) {
+
+@media only screen and (max-width: 992px) {
 	.blockquote {
 		width: 100%;
 	}
+
 	.music {
 		width: 100%;
 	}
+
 	.music-block,
-	.bloc-game{
-		width:100%;
+	.bloc-game {
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		flex-wrap: wrap;
 	}
+
 	.music-block__plan {
 		width: 100%;
 		margin: 10px;
 		background: red;
 	}
+
 	.game {
 		width: 100%;
 		padding: 10px 20px;
 	}
-	.game__text{
+
+	.game__text {
 		text-align: center;
 	}
-
 
 	.block-game__plan {
 		width: 100%;
 		margin: 10px;
 	}
+
 	.project-descrip {
 		width: 100%;
 	}
+
 	.project {
 		display: flex;
 		flex-direction: column;
@@ -432,17 +478,19 @@ html {
 		flex-wrap: wrap;
 		width: 100%;
 	}
+
 	.project__time {
 		width: 100%;
 		margin: 10px;
 		background: olivedrab;
 	}
 }
-@media only screen and (max-width : 768px) {
+
+@media only screen and (max-width: 768px) {
 
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width: 480px) {
 
 }
 
