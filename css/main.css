@@ -19,6 +19,7 @@ html {
 	flex-direction: column;
 	line-height: 2.3rem;
 	width: 1380px;
+	max-width: 100%;
 	margin: 0 auto;
 
 }
@@ -29,8 +30,21 @@ html {
 	width: 100%;
 }
 
-.wrap {
+.picture {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
+.picture__img {
+	width: 100%;
+	max-width: 100%;
+
+}
+
+.wrap {
+	width: 100%;
+	max-width: 100%;
 }
 
 .content-wrapper {
@@ -44,7 +58,7 @@ html {
 	margin: 0 auto;
 	background-color: #292929;
 	width: 100%;
-	height: 100px;
+	height: 70px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -59,15 +73,7 @@ html {
 	background-color: #1e1e1e;
 	z-index: 20;
 }
-.picture {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.picture__img {
-	max-width: 100%;
 
-}
 /*оформление логотипа*/
 .logo-top {
 	display: flex;
@@ -216,6 +222,8 @@ html {
 	color: rgb(88, 201, 58);
 }
 
+
+
 @media screen and (max-width: 919px) {
 	.main-menu {
 		display: none;
@@ -249,6 +257,16 @@ html {
 
 	.main-menu {
 		display: none;
+	}
+	.picture {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.picture img {
+		margin: 5px 0 0 5px;
 	}
 }
 
@@ -290,21 +308,21 @@ html {
 /*оформление контента game*/
 /*оформление трех блоков*/
 .game,
-.music-art{
+.music-art {
 	width: 100%;
 	background: #f7f7f7;
 	padding: 20px;
 }
 
 .game__title,
-.music-art__title{
+.music-art__title {
 	text-align: center;
 	font-size: 1.8rem;
 	font-weight: 600;
 }
 
 .game__text,
-.music-art__text{
+.music-art__text {
 	font-size: 1.3em;
 }
 
@@ -318,7 +336,7 @@ html {
 }
 
 .block-game__plan,
-.music-art__block{
+.music-art__block {
 	width: 31%;
 	display: flex;
 	flex-direction: column;
@@ -328,7 +346,7 @@ html {
 }
 
 .block-game__title,
-.music-block__title{
+.music-block__title {
 	margin: 0;
 	padding: 8px 0 8px 15px;
 	background: #5F2D0F;
@@ -338,17 +356,18 @@ html {
 	text-align: center;
 
 }
+
 /*оформление блока ul*/
 
 .block-game__list,
-.music-art__list{
+.music-art__list {
 	padding: 0;
 	margin: 10px 0 0;
 	background: #fff;
 }
 
 .block-game__item,
-.music-art__item{
+.music-art__item {
 	font-size: 1rem;
 	list-style: none;
 	border-bottom: 1px solid #e8e6de;
@@ -364,7 +383,7 @@ html {
 }
 
 .block-game__link:hover,
-.music-art__link:hover{
+.music-art__link:hover {
 	text-decoration: none;
 	color: #B8799E;
 	text-align: center;
@@ -377,10 +396,11 @@ html {
 	position: relative;
 	padding-top: 30px;
 }
+
 .block-game__descrip {
-	line-height:1.9rem;
-	padding:0 10px 0;
-	color:#444;
+	line-height: 1.9rem;
+	padding: 0 10px 0;
+	color: #444;
 }
 
 .blockquote__one {
@@ -437,7 +457,6 @@ html {
 		width: 100%;
 	}
 
-
 	.music-art__wrap,
 	.bloc-game {
 		width: 100%;
@@ -447,9 +466,8 @@ html {
 		flex-wrap: wrap;
 	}
 
-
 	.game,
-	.music-art{
+	.music-art {
 		width: 100%;
 		padding: 10px 20px;
 	}
@@ -459,7 +477,7 @@ html {
 	}
 
 	.block-game__plan,
-	.music-art__block{
+	.music-art__block {
 		width: 100%;
 	}
 
