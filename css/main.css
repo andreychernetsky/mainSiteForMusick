@@ -38,9 +38,10 @@ html {
 }
 
 .picture {
+	width: 450px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+
 }
 
 .picture__img {
@@ -254,14 +255,19 @@ html {
 		display: none;
 	}
 	.picture {
+		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: column;
 		align-items: center;
 
+
 	}
-	.picture img {
-		margin: 5px 0 0 5px;
+	.picture__picture {
+		margin: 5px 0 ;
+		max-width: 100%;
+		text-align: center;
+
 	}
 }
 
