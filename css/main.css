@@ -59,7 +59,15 @@ html {
 	background-color: #1e1e1e;
 	z-index: 20;
 }
+.picture {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.picture__img {
+	max-width: 100%;
 
+}
 /*оформление логотипа*/
 .logo-top {
 	display: flex;
@@ -265,28 +273,12 @@ html {
 /*оформление контента music*/
 /*оформление трех блоков*/
 
-.music-art {
-	width: 100%;
-	background: #f7f7f7;
-}
-
-.music-art__title {
-	text-align: center;
-}
-
-.music-art__text {
-	font-size: .13rem;
-	padding: 30px;
-}
-
-/*оформление трех блоков*/
-
 .music-block__title {
 	height: 68px;
 	color: #fefefe;
 	background-color: #3498db;
 	text-align: center;
-	font-size: 30px;
+	font-size: 1.8rem;
 
 }
 
@@ -297,23 +289,27 @@ html {
 
 /*оформление контента game*/
 /*оформление трех блоков*/
-.game {
+.game,
+.music-art{
 	width: 100%;
 	background: #f7f7f7;
 	padding: 20px;
 }
 
-.game__title {
+.game__title,
+.music-art__title{
 	text-align: center;
 	font-size: 1.8rem;
 	font-weight: 600;
 }
 
-.game__text {
+.game__text,
+.music-art__text{
 	font-size: 1.3em;
 }
 
-.bloc-game {
+.bloc-game,
+.music-art__wrap {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -321,7 +317,8 @@ html {
 
 }
 
-.block-game__plan {
+.block-game__plan,
+.music-art__block{
 	width: 31%;
 	display: flex;
 	flex-direction: column;
@@ -330,7 +327,8 @@ html {
 	margin-top: 20px;
 }
 
-.block-game__title {
+.block-game__title,
+.music-block__title{
 	margin: 0;
 	padding: 8px 0 8px 15px;
 	background: #5F2D0F;
@@ -340,29 +338,34 @@ html {
 	text-align: center;
 
 }
+/*оформление блока ul*/
 
-.block-game__list {
+.block-game__list,
+.music-art__list{
 	padding: 0;
 	margin: 10px 0 0;
+	background: #fff;
 }
 
-.block-game__item {
+.block-game__item,
+.music-art__item{
 	font-size: 1rem;
 	list-style: none;
-	height: 31px;
 	border-bottom: 1px solid #e8e6de;
-	margin: 20px 16px;
+	margin: 10px 16px;
 }
 
-.block-game__link{
+.block-game__link,
+.music-art__link {
 	text-decoration: none;
 	color: #14652F;
 	padding: 10px 10px 10px;
 	font-size: 1.3rem;
 }
 
-.block-game__link:hover {
-	_text-decoration: none;
+.block-game__link:hover,
+.music-art__link:hover{
+	text-decoration: none;
 	color: #B8799E;
 	text-align: center;
 	padding: 2px;
@@ -434,11 +437,8 @@ html {
 		width: 100%;
 	}
 
-	.music {
-		width: 100%;
-	}
 
-	.music-block,
+	.music-art__wrap,
 	.bloc-game {
 		width: 100%;
 		display: flex;
@@ -447,13 +447,9 @@ html {
 		flex-wrap: wrap;
 	}
 
-	.music-block__plan {
-		width: 100%;
-		margin: 10px;
-		background: red;
-	}
 
-	.game {
+	.game,
+	.music-art{
 		width: 100%;
 		padding: 10px 20px;
 	}
@@ -462,9 +458,9 @@ html {
 		text-align: center;
 	}
 
-	.block-game__plan {
+	.block-game__plan,
+	.music-art__block{
 		width: 100%;
-		margin: 10px;
 	}
 
 	.project-descrip {
