@@ -15,10 +15,11 @@ html {
 	font-family: 'Arial';
 	font-weight: 300;
 	font-size: 1.3rem;
-	line-height: 1.375rem;
 	display: flex;
 	flex-direction: column;
 	line-height: 2.3rem;
+	width: 1380px;
+	margin: 0 auto;
 
 }
 
@@ -29,8 +30,7 @@ html {
 }
 
 .wrap {
-	margin: 0 auto;
-	max-width: 1680px;
+
 }
 
 .content-wrapper {
