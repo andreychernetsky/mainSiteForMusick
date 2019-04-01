@@ -456,12 +456,9 @@ html {
 	background-color: #3498db;
 	text-align: center;
 	font-size: 1.8rem;
-
-}
-
-.music-block__title {
 	background-color: #3498db;
 	padding: 20px 50px;
+
 }
 
 /*оформление контента game*/
@@ -524,7 +521,6 @@ html {
 .block-game__list,
 .music-art__list {
 	padding: 0;
-	margin: 10px 0 0;
 	background: #fff;
 }
 
