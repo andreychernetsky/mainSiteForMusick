@@ -121,6 +121,7 @@ html {
 	border-right: 1px solid #219d84;
 }
 
+/*
 .about__myphoto {
 	overflow: hidden;
 	visibility: hidden;
@@ -138,6 +139,7 @@ html {
 	transform: rotate(-60deg);
 	backface-visibility: hidden;
 }
+*/
 
 /*.about__myhoto--mask2 {
 	width: 100%;
