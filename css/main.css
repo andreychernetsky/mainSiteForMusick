@@ -1,4 +1,49 @@
+@font-face {
+	font-family: "Lato";
+	src: url("assets/font/Lato-Regular.ttf");
+}
 
+@font-face {
+	font-family: "Maven Pro";
+	src: url("assets/font/MavenPro-Regular.ttf");
+}
+
+@font-face {
+	font-family: "fontello";
+	src: url('../assets/font/fontello.eot?71847581');
+	src: url('../assets/font/fontello.eot?71847581#iefix') format('embedded-opentype'),
+	url('../assets/font/fontello.woff2?71847581') format('woff2'),
+	url('../assets/font/fontello.woff?71847581') format('woff'),
+	url('../assets/font/fontello.ttf?71847581') format('truetype'),
+	url('../assets/font/fontello.svg?71847581#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+i {
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	color: #33AB92;
+	font-size: 16px;
+	line-height: 24px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+i:hover {
+	color: #fff;
+}
+.icon-location:before { content: '\e800'; }
+.icon-phone:before { content: '\e801'; }
+.icon-mail:before { content: '\e802'; }
+.icon-twitter:before { content: '\f099'; }
+.icon-facebook:before { content: '\f09a'; }
+.icon-linkedin:before { content: '\f0e1'; }
+.icon-dribbble:before { content: '\f17d'; }
+.icon-pinterest:before { content: '\f231'; }
+.icon-gplus:before { content: '\f30f'; }
 * {
 	margin: 0;
 	padding: 0;
@@ -19,26 +64,79 @@ html {
 	display: flex;
 	flex-direction: column;
 	line-height: 2.3rem;
-	width:1300px;
+	width: 1300px;
 	max-width: 100%;
 	margin: 0 auto;
 
 }
+
 .content-wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width:100%;
-	margin: auto;
+	width: 100%;
+	margin: 0 auto;
 }
 
+/* About */
+
+.about {
+	background: background: #2eb398;
+	padding: 12px 0 15px;;
+}
+.about__container {
+	max-width: 980px;
+	margin: auto;
+	padding: 50px 28px;
+	border-left: 1px solid #219d84;
+	border-right: 1px solid #219d84;
+}
+.about__myphoto {
+	overflow: hidden;
+	visibility: hidden;
+	transform: rotate(120deg);
+	width: 480px;
+	height: 388px;
+	float: left;
+	margin-right: 28px;
+}
+.about__myhoto--mask1 {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	transform: rotate(-60deg);
+	backface-visibility: hidden;
+}
+.about__myhoto--mask2 {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 80%;
+	background-image: url("1.jpg");
+	visibility: visible;
+	transform: rotate(-60deg);
+}
+.about__myname {
+	font-family: "Maven Pro", sans-serif;
+	font-size: 2rem;
+	color: #040505;
+	padding: 0;
+	margin: 0;
+}
+.about__aboutme {
+	font-family: "Maven Pro", sans-serif;
+	font-size:1.5rem;
+	color: #20816d;
+	margin: 0;
+	padding: 0;
+}
 .main-foto {
 	text-align: center;
 	max-width: 100%;
 }
 
 .picture {
-	width: 450px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 
@@ -49,6 +147,7 @@ html {
 	max-width: 100%;
 
 }
+
 /*формление header*/
 .main-header {
 	margin: 0 auto;
@@ -218,8 +317,6 @@ html {
 	color: rgb(88, 201, 58);
 }
 
-
-
 @media screen and (max-width: 919px) {
 	.main-menu {
 		display: none;
@@ -254,6 +351,7 @@ html {
 	.main-menu {
 		display: none;
 	}
+
 	.picture {
 		width: 100%;
 		display: flex;
@@ -261,10 +359,10 @@ html {
 		flex-direction: column;
 		align-items: center;
 
-
 	}
+
 	.picture__picture {
-		margin: 5px 0 ;
+		margin: 5px 0;
 		max-width: 100%;
 		text-align: center;
 
@@ -313,6 +411,9 @@ html {
 	width: 100%;
 	background: #f7f7f7;
 	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .game__title,
@@ -494,15 +595,31 @@ html {
 		width: 100%;
 	}
 
-	.project__time {
+	.picture {
 		width: 100%;
-		margin: 10px;
-		background: olivedrab;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
 	}
+
+	.picture__img {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.picture__picture {
+		max-width: 100%;
+	}
+
 }
 
 @media only screen and (max-width: 768px) {
-
+	.contact__item {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 480px) {
