@@ -64,7 +64,7 @@ html {
 	display: flex;
 	flex-direction: column;
 	line-height: 2.3rem;
-	width: 1300px;
+	width: 1100px;
 	max-width: 100%;
 	margin: 0 auto;
 
@@ -620,6 +620,14 @@ html {
 	.contact__item {
 		display: none;
 	}
+	.about-myphoto {
+			float: none;
+			margin: 0 auto;
+		}
+		.about-myname {
+			margin-top: 24px;
+		}
+
 }
 
 @media only screen and (max-width: 480px) {
