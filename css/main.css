@@ -197,6 +197,21 @@ html {
 	color: #fff;
 }
 
+/*description*/
+.description {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.description__block-left {
+	width: 63%;
+	padding-left: 10px;
+}
+.description__block-right {
+	outline: 1px solid black;
+	width: 35%;
+}
 /*оформление бургера для мобилки*/
 
 .section {
@@ -560,7 +575,8 @@ html {
 	}
 
 	.music-art__wrap,
-	.bloc-game {
+	.bloc-game,
+	.about {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -574,7 +590,10 @@ html {
 		padding: 10px 20px;
 	}
 
-	.game__text {
+	.game__text,
+	.about__myname,
+	.about__aboutme,
+	.about__text{
 		text-align: center;
 	}
 
@@ -612,6 +631,23 @@ html {
 
 	.picture__picture {
 		max-width: 100%;
+	}
+	.description {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 20px;
+	}
+	.description__block-right {
+		width: 100%;
+	}
+	.description__block-left {
+		margin-top: 20px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 }
