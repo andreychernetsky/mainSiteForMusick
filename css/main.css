@@ -240,19 +240,21 @@ html {
 	align-items: center;
 	width: 100%;
 }
+.description__video {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+}
+.description__text {
+	text-align: center;
+}
 
 .description__block-left {
 	width: 63%;
 	padding-left: 10px;
 }
-
-.description__block-right {
-	outline: 1px solid black;
-	width: 35%;
-}
-
-.vimdeo {
-	margin: 50px auto;
+.video {
+	margin: 10px auto;
 	border-radius: 10px;
 	display: block;
 }
@@ -851,6 +853,10 @@ list-style-type: none;
 		padding: 20px;
 		background-color: #e7e7e7;
 	}
+	.description__video {
+		width: 100%;
+	}
+
 
 	.description__block-right {
 		width: 100%;
