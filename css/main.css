@@ -386,7 +386,7 @@ html {
 }
 
 /*боковой aside*/
-.block-left {
+.hidden-menu {
 	background: #f5f6f7;
 	height: 100vh;
 	position: fixed;
@@ -401,10 +401,7 @@ html {
 }
 
 @media screen and (max-width: 920px) {
-	.block-left {
-		width: 100vh;
-		background: #000000;
-	}
+	
 
 	.main-menu__item a {
 		color: #000000;
@@ -431,7 +428,11 @@ html {
 	}
 }
 /*оформление мобильного меню*/
-.block-left.active {
+.hidden-menu {
+		width: 100vh;
+		background: #000000;
+	}
+.hidden-menu.active {
 	background: rgba(0, 0, 0, 0.8);
 	opacity: 1;
 	visibility: visible;
@@ -442,12 +443,12 @@ html {
 	z-index: 290;
 
 }
-.widget {
+/*.widget {
 	margin-top: 20%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
+}*/
 .widget__list {
 
 	text-align: center;
@@ -472,12 +473,9 @@ html {
 	color: darkgreen;
 	text-decoration: underline;
 }
-.block-left.active .block-left__inner {
 
 
-}
-
-.block-left.active .block-left__inner:after {
+.hidden-menu.active .hidden-menu__inner:after {
 
 	border-radius: 50%;
 	-webkit-animation: elastic 150ms ease 300.5ms both;
